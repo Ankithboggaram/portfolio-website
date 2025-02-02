@@ -24,6 +24,101 @@
     cursor: default;
 }
 
+/* Education */
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.25em;
+    border: solid 1px rgba(0, 0, 0, 0.15);
+	/* background-image: url("images/inggrid-koe-kbKEuU-YEIw-unsplash.jpg"); */
+    background: rgba(0, 0, 0, 0.05);
+    margin: 0 0 2em 0;
+}
+
+.education section {
+    padding: 3.5em 3em 1em 7em;
+    width: 100%; /* Change to full width */
+    border-top: solid 1px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+/* .education section:nth-child(-n + 2) {
+    /* border-top-width: 0;
+} 
+*/
+
+.education section .icon {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition-delay: 1s;
+    transform: scale(1);
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    opacity: 1;
+}
+
+/* Icon transition delays */
+.education section:nth-child(1) .icon { transition-delay: 0.15s; }
+.education section:nth-child(2) .icon { transition-delay: 0.3s; }
+.education section:nth-child(3) .icon { transition-delay: 0.45s; }
+.education section:nth-child(4) .icon { transition-delay: 0.6s; }
+.education section:nth-child(5) .icon { transition-delay: 0.75s; }
+.education section:nth-child(6) .icon { transition-delay: 0.9s; }
+.education section:nth-child(7) .icon { transition-delay: 1.05s; }
+.education section:nth-child(8) .icon { transition-delay: 1.2s; }
+.education section:nth-child(9) .icon { transition-delay: 1.35s; }
+.education section:nth-child(10) .icon { transition-delay: 1.5s; }
+.education section:nth-child(11) .icon { transition-delay: 1.65s; }
+.education section:nth-child(12) .icon { transition-delay: 1.8s; }
+.education section:nth-child(13) .icon { transition-delay: 1.95s; }
+.education section:nth-child(14) .icon { transition-delay: 2.1s; }
+.education section:nth-child(15) .icon { transition-delay: 2.25s; }
+.education section:nth-child(16) .icon { transition-delay: 2.4s; }
+.education section:nth-child(17) .icon { transition-delay: 2.55s; }
+.education section:nth-child(18) .icon { transition-delay: 2.7s; }
+.education section:nth-child(19) .icon { transition-delay: 2.85s; }
+.education section:nth-child(20) .icon { transition-delay: 3s; }
+
+.education.inactive section .icon {
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+@media screen and (max-width: 980px) {
+    .education {
+        display: block;
+    }
+    .education section {
+        border-top-width: 1px !important;
+        width: 100%; /* Full width */
+    }
+    .education section:first-child {
+        border-top-width: 0 !important;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .education section {
+        padding: 2.5em 1.5em 0.1em 5.5em;
+    }
+    .education section .icon {
+        left: 1.5em;
+        top: 2em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .education section {
+        padding: 2em 1.5em 0.1em 1.5em;
+    }
+    .education section .icon {
+        left: 0;
+        position: relative;
+        top: 0;
+    }
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
