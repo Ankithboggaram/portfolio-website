@@ -6,6 +6,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.bubble {
+    display: inline-block;
+    background-color: #D3D3D3;
+    border: solid 1px !important;
+    border-color: rgba(0, 0, 0, 0.35) !important;
+    border-radius: 2em; 
+    color: rgba(0, 0, 0, 0.55) !important;
+    font-size: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height: 1.5em; 
+    padding: 0 0.75em;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: default;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3241,7 +3259,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #31312F;
 		}
 
 		.wrapper.style1 {
