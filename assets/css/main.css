@@ -3377,14 +3377,14 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #000000;
+		background-color: #31312F;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
 
 		#header > .title {
 			border: 0;
-			color: #000000;
+			color: #ffffff;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
